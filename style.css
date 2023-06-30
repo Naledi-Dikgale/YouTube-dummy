@@ -1,319 +1,345 @@
-:root{
-    --navbar-height: 40px;
-  }
-  *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box; 
-  }
-  html{
-    width: 100vw;
-    height: 100vh;
-  }
-  body{
-   max-width: 100%;
-    height: 100%;
-    overflow-x: hidden;
-  }
-  main{
-    max-width: 98%;
-    padding: 0;
-    margin: 0;
-    display: flex;
-  }
-  p{
-    font-size: medium;
-    font-family: sans-serif;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .icons{
-    font-size: larger;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-  }
-  
-  .container{
-    padding-left: 0.5em;
-    width: 98%;
-    height: var(--navbar-height);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    /* position: sticky; */
-  }
-  .logo{
-    height: var(--navbar-height);
-  }
-  .title{
-    display: flex;
-    align-items: center;
-    font-size: x-large;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: 700;
-  }
-  .nav-element{
-    display: flex;
-    align-items: center;
-  }
-  .search-bar{
-    width: 30%;
-  }
-  #search_input{
-    padding: 0;
-    margin: 0;
-    height: var(--navbar-height);
-    width: 100%;
-    border: 1px solid gray;
-    border-radius: 20px 0 0 20px;
-  }
-  #search_button{
-    display: flex;
-    align-items: center;
-    padding: 15px;
-    height: var(--navbar-height);
-    border: 1px solid grey;
-    border-radius: 0 20px 20px 0;
-  }
-  #search_button:hover{
+:root {
+  --navbar-height: 40px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  max-width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+main {
+  max-width: 98%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+p {
+  font-size: medium;
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.icons {
+  font-size: larger;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.container {
+  padding-left: 0.5em;
+  width: 98%;
+  height: var(--navbar-height);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.logo {
+  height: var(--navbar-height);
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  font-size: x-large;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 700;
+}
+
+.nav-element {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar {
+  width: 30%;
+}
+
+#search_input {
+  padding: 0;
+  margin: 0;
+  height: var(--navbar-height);
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 20px 0 0 20px;
+}
+
+#search_button {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  height: var(--navbar-height);
+  border: 1px solid grey;
+  border-radius: 0 20px 20px 0;
+}
+
+#search_button:hover {
   cursor: pointer;
-  }
-  .nav-btns{
-    display: flex;
-    justify-content: space-between;
-    width: 12%
-  }
-  .nav-btn:hover{
+}
+
+.nav-btns {
+  display: flex;
+  justify-content: space-between;
+  width: 12%;
+}
+
+.nav-btn:hover {
   background-color: gray;
   color: white;
   cursor: pointer;
-  
-  }
-  .nav-btn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: var(--navbar-height);
-    width: var(--navbar-height);
-    background-color: transparent;
-    border: 0;
-    border-radius: 50%;
-    font-weight: 900;
-    font-size: x-large;
-  }
-  .nav-profile{
-    background-color: blueviolet;
-    color: white;
-  }
-  
-  
-  /* Main Section Styles */
-  
-  .vid-comm{
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    margin-left: 8%;
-  }
-  .video{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .video-player{
-    width: 100%;
-    height: 400px;
-  }
-  .video-title{
-    margin-top: 1em;
+}
+
+.nav-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--navbar-height);
+  width: var(--navbar-height);
+  background-color: transparent;
+  border: 0;
+  border-radius: 50%;
+  font-weight: 900;
+  font-size: x-large;
+}
+.nav-profile {
+  background-color: blueviolet;
+  color: white;
+}
+
+/* Main Section Styles */
+
+.vid-comm {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 8%;
+}
+
+.video {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.video-player {
+  width: 100%;
+  height: 400px;
+}
+
+.video-title {
+  margin-top: 1em;
   font-size: x-large;
   font-weight: 700;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
-  .acc-info{
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.acc-info {
   display: flex;
   margin-top: 2em;
   align-items: center;
   justify-content: space-between;
-  }
-  .acc-info-pp{
-    height: 5em;
-    width: 5em;
-    border-radius: 50%;
-  }
-  .acc-info-first{
-    display: flex;
-    align-items: center;
-  }
-  .name-stat{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    margin-left: 3px;
-  }
-  .acc-info-name{
-    font-weight: 700;
-    font-size: larger;
-  }
-  .acc-info-subs{
-    font-weight: 300;
-    font-size: medium;
-    color: gray;
-  }
-  .btn-text{
-    font-size: medium;
-    font-weight: bolder;
-  }
-  .sub-btn{
-    width: 100px;
-    height: 40px;
-    background-color: black;
-    color: white;
-    border-radius: 20em;
-    margin-left: 2em;
-  }
-  .sub-btn:hover{
-    cursor: pointer;
-    background-color: rgb(65, 64, 64);
-  }
-  .acc-info-second{
-    display: flex;
-    align-items: center;
-  }
-  
-  .ldl-btns{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    border: 0;
-    padding: 13px;
-    height: 40px;
-    background-color: rgb(237, 236, 236);
-  }
-  .ldl-btns:hover{
-    cursor: pointer;
-    background-color: rgb(199, 197, 197);
-  }
-  .like-btn{
-    border-right: 1px solid gray;
-    border-radius: 20px 0 0 20px;
-  }
-  .dislike-btn{
-    border-radius: 0 20px 20px 0;
-  }
-  
-  .share-btn{
-    width: 100px;
-    height: 40px;
-    border-radius: 20em;
-    margin-left: 1em;
-  }
-  
-  .menu-btn{
-    font-weight: 900;
-    padding-bottom: 20px;
-    border-radius: 50%;
-    margin-left: 3px;
-  }
-  
-  
-  .description{
-    border: 1px solid black;
-    border-radius: 20px;
-    height: fit-content;
-    padding: 1em;
-    margin-top: 1em;
-  }
-  
-  
-  /* Comment Section */
-  .comments{
-    margin-top: 1em;
-    padding: 1.5em;
-  }
-  .comment{
-    margin-top: 1em;
-    display: flex;
-  }
-  .comment-pp{
-    height: 3em;
-    width: 3em;
-    border-radius: 50%;
-  }
-  .comment-text{
-    margin-left: 1em;
-  }
-  
-  .comment-comment{
-    font-size: small;
-    font-weight: lighter;
-  
-  }
-  .comment-btns{
-    display: flex;
-    align-items: center;
-  }
-  .comment-btn{
-    border: 0;
-    width: 40px;
-    height: 40px;
-    background-color: transparent;
-    padding: 5px;
-  }
-  
-  .comment-btn:hover{
-    cursor: pointer;
-    background-color: rgb(199, 197, 197);
-    border-radius: 50%;
-  }
-  
-  .comment-likes{
-    margin-right: 2em;
-    font-family: sans-serif;
-  }
-  
-  
-  /* Recommendation Section */
-  
-  .recom-section{
-    width: 40%;
-    padding: 2em;
-  }
-  .recom-element{
-    display: flex;
-    margin-top: 1em;
-    height: 100px;
-  }
-  .recom-image{
-    width: 200px;
-    height: 100px;
-  }
-  .recom-text{
+}
+
+.acc-info-pp {
+  height: 5em;
+  width: 5em;
+  border-radius: 50%;
+}
+.acc-info-first {
+  display: flex;
+  align-items: center;
+}
+.name-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 3px;
+}
+.acc-info-name {
+  font-weight: 700;
+  font-size: larger;
+}
+.acc-info-subs {
+  font-weight: 300;
+  font-size: medium;
+  color: gray;
+}
+
+.btn-text {
+  font-size: medium;
+  font-weight: bolder;
+}
+.sub-btn {
+  width: 100px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 20em;
+  margin-left: 2em;
+}
+.sub-btn:hover {
+  cursor: pointer;
+  background-color: rgb(65, 64, 64);
+}
+
+.acc-info-second {
+  display: flex;
+  align-items: center;
+}
+
+.ldl-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  border: 0;
+  padding: 13px;
+  height: 40px;
+  background-color: rgb(237, 236, 236);
+}
+
+.ldl-btns:hover {
+  cursor: pointer;
+  background-color: rgb(199, 197, 197);
+}
+
+.like-btn {
+  border-right: 1px solid gray;
+  border-radius: 20px 0 0 20px;
+}
+
+.dislike-btn {
+  border-radius: 0 20px 20px 0;
+}
+
+.share-btn {
+  width: 100px;
+  height: 40px;
+  border-radius: 20em;
+  margin-left: 1em;
+}
+
+.menu-btn {
+  font-weight: 900;
+  padding-bottom: 20px;
+  border-radius: 50%;
+  margin-left: 3px;
+}
+
+.description {
+  border: 1px solid black;
+  border-radius: 20px;
+  height: fit-content;
+  padding: 1em;
+  margin-top: 1em;
+}
+
+/* Comment Section */
+
+.comments {
+  margin-top: 1em;
+  padding: 1.5em;
+}
+
+.comment {
+  margin-top: 1em;
+  display: flex;
+}
+
+.comment-pp {
+  height: 3em;
+  width: 3em;
+  border-radius: 50%;
+}
+.comment-text {
+  margin-left: 1em;
+}
+
+.comment-comment {
+  font-size: small;
+  font-weight: lighter;
+}
+
+.comment-btns {
+  display: flex;
+  align-items: center;
+}
+
+.comment-btn {
+  border: 0;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  padding: 5px;
+}
+
+.comment-btn:hover {
+  cursor: pointer;
+  background-color: rgb(199, 197, 197);
+  border-radius: 50%;
+}
+
+.comment-likes {
+  margin-right: 2em;
+  font-family: sans-serif;
+}
+
+/* Recommendation Section */
+
+.recom-section {
+  width: 40%;
+  padding: 2em;
+}
+
+.recom-element {
+  display: flex;
+  margin-top: 1em;
+  height: 100px;
+}
+
+.recom-image {
+  width: 200px;
+  height: 100px;
+}
+
+.recom-text {
   height: 80%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   font-family: sans-serif;
   margin-left: 1em;
-  }
-  .recom-title{
-    font-weight: bold;
-  }
-  .recom-account, .recom-stat{
-    color: rgb(114, 114, 114);
-    font-weight: bold;
-    font-size: small;
-  }
-  
- 
- 
+}
+
+.recom-title {
+  font-weight: bold;
+}
+
+.recom-account,
+.recom-stat {
+  color: rgb(114, 114, 114);
+  font-weight: bold;
+  font-size: small;
+}
+
