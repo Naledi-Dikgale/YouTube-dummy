@@ -134,11 +134,11 @@ Feel free to check the [issues page](https://github.com/Naledi-Dikgale/https---g
 ## ⭐️ Show your support <a name="support"></a>
 
 
-If you like this project Please star it in my github page.
+If you like this project Please star it on my GitHub page.
 
 <p align="right">(<a href="https://github.com/Naledi-Dikgale">back to top</a>)</p>
 
-I would like to thank my teammates.
+I would like to thank Microverse for providing material for practical learning.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
