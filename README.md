@@ -138,7 +138,7 @@ If you like this project Please star it on my GitHub page.
 
 <p align="right">(<a href="https://github.com/Naledi-Dikgale">back to top</a>)</p>
 
-I would like to thank Microverse for providing material for practical learning.
+I would like to thank Microverse for providing sufficient material for practical learning.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
