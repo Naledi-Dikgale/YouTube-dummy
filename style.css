@@ -44,7 +44,7 @@ p {
 
 .container {
   padding-left: 0.5em;
-  width: 98%;
+  width: 96%;
   height: var(--navbar-height);
   display: flex;
   align-items: center;
@@ -73,7 +73,7 @@ p {
 }
 
 .search-bar {
-  width: 30%;
+  width: 31%;
 }
 
 #search_input {
